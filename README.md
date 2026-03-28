@@ -33,7 +33,7 @@ Place your testing images (wide shots of crowds/rooms) into the test_images dire
 
 🚀 How to Use
 Part 1: Gather Data (tracker.py)
-This script acts as the automated sensor. It scans a folder of images, counts the faces using AI, and silently logs the data to a file named occupancy_log.csv. Note: This script includes an automated time-simulator that increments the clock by 45 minutes for each image to build a realistic daily dataset.
+This script acts as the automated sensor. It scans a folder of images, counts the faces using AI, and silently logs the data to a file named occupancy_log.csv. 
 
 Command:
 python tracker.py --dir test_images --capacity 20
