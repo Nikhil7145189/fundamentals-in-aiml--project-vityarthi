@@ -18,11 +18,13 @@ study_room_tracker/
 │
 ├── test_images/           
 │
-├── analyzer.py             
+├── analyzer.py
+├── occupancy_log.csv            
 ├── requirements.txt             
 ├── tracker.py            
 └── README.md               
 ```
+
  Installation & Setup
 
 Clone this repository to your local machine.
