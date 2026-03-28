@@ -16,12 +16,12 @@ This was built as a Bring Your Own Project (BYOP) capstone, applying core concep
 ```
 study_room_tracker/
 │
-├── test_images/            # Folder containing raw images of the room (Face dataset)
+├── test_images/           
 │
-├── tracker.py              # Script 1: The Vision Engine (Data Collector)
-├── analyzer.py             # Script 2: The ML Predictor (Data Analyzer)
-├── requirements.txt        # Python dependencies
-└── README.md               # Project documentation
+├── analyzer.py             
+├── requirements.txt             
+├── tracker.py            
+└── README.md               
 ```
  Installation & Setup
 
