@@ -11,7 +11,7 @@ This was built as a Bring Your Own Project (BYOP) capstone, applying core concep
 * **Module 3 (Feature Learning):** Converts string-based timestamps into continuous decimal features so the regression model can process the math.
 
 ## 📁 Repository Structure
-```text
+```
 study_room_tracker/
 │
 ├── test_images/            # Folder containing raw images of the room (Face dataset)
@@ -20,7 +20,7 @@ study_room_tracker/
 ├── analyzer.py             # Script 2: The ML Predictor (Data Analyzer)
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
-
+```
 ⚙️ Installation & Setup
 Clone this repository to your local machine.
 
