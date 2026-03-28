@@ -1,18 +1,18 @@
-# 📊 Study Room Occupancy Tracker & Predictor
+#  Study Room Occupancy Tracker & Predictor
 
-## 🎯 Project Overview
+##  Project Overview
 
 This project is a Command Line Interface (CLI) application designed to solve a common campus problem: finding an available study room. It uses a two-part Machine Learning pipeline to automatically scan images of a room, count the number of people, and use historical data to predict future occupancy.
 
 This was built as a Bring Your Own Project (BYOP) capstone, applying core concepts from **Fundamentals of AI and ML**.
 
-## 🧠 Course Concepts Applied
+##  Course Concepts Applied
 
 * **Module 5 (Transfer Learning & Pre-trained Models):** Utilizes OpenCV's Haar Cascades (a pre-trained Computer Vision model) to detect human faces without requiring massive computational training.
 * **Module 4 (Linear Regression & Machine Learning):** Uses `scikit-learn` to train a Linear Regression model on generated CSV data, predicting future room occupancy based on time-of-day trends.
 * **Module 3 (Feature Learning):** Converts string-based timestamps into continuous decimal features so the regression model can process the math.
 
-## 📁 Repository Structure
+##  Repository Structure
 ```
 study_room_tracker/
 │
@@ -23,7 +23,7 @@ study_room_tracker/
 ├── requirements.txt        # Python dependencies
 └── README.md               # Project documentation
 ```
-⚙️ Installation & Setup
+ Installation & Setup
 
 Clone this repository to your local machine.
 
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 Place your testing images (wide shots of crowds/rooms) into the test_images directory.
 
-🚀 How to Use
+ How to Use
 Part 1: Gather Data (tracker.py)
 
 This script acts as the automated sensor. It scans a folder of images, counts the faces using AI, and silently logs the data to a file named occupancy_log.csv. 
@@ -60,5 +60,5 @@ python analyzer.py --time 14:30 --capacity 20
 
 --capacity: The maximum number of seats in the room.
 
-🔮 Future Scope & Scalability
+ Future Scope & Scalability
 While this MVP uses localized Haar Cascades for indoor study rooms, the architecture is designed to scale. By upgrading the vision model to YOLO (Deep Learning) and replacing simple Linear Regression with Multiple Regression (incorporating weather, day of the week, and holiday data), this system could easily be scaled to map the real-time foot traffic and density of an entire city block.
